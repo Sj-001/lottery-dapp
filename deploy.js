@@ -6,7 +6,7 @@ const {
 } = require("g:/Blockchain/projects/lottery/compile");
 
 const provider = new HDWalletProvider(
-  "faith tip you swarm body skull credit sort eager pass stone tent",
+  "YOUR_MNEMONIC",
   "https://rinkeby.infura.io/v3/a1562c00cce94b80a3ba36c1181e5eb4"
 );
 const web3 = new Web3(provider);
